@@ -1,0 +1,37 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment folders
+venv/
+env/
+conda/
+*.conda
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Configuration files
+*.ini
+*.yaml
+*.json
+
+# VSCode settings folder
+.vscode/
+
+# Pytest cache
+.cache/
+
+# IDE and editor files
+.idea/
