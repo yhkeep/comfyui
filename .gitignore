@@ -1,0 +1,46 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Output and Input directories (probably containing generated files)
+output/
+input/
+
+# Allow example files in /input (if you want to track example files but not others)
+!/input/example.png
+
+# Model files
+/models/
+
+# Temporary directories (custom nodes, temp files, etc.)
+temp/
+custom_nodes/
+!custom_nodes/example_node.py.example  # Allow specific node example
+
+# Example config files
+extra_model_paths.yaml
+
+# VS Code, IntelliJ, and IDE specific folders
+.vs/
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.venv/
+
+# Web extensions (allow only specific files)
+web/extensions/*
+!/web/extensions/logging.js.example
+!/web/extensions/core/
+
+# Tests data and logs
+/tests-ui/data/object_info.json
+/user/
+*.log
+
+# Custom web versions
+web_custom_versions/
+
+# macOS system files
+.DS_Store
